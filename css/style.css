@@ -1,0 +1,251 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CircularStd;
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: Lato;
+	font-size: 16px;
+}
+h1 {
+	font-size: 60px;
+	font-weight: 900;
+	color: red;
+	line-height: 60px;
+	margin-top: 10px;
+	text-shadow: 10px 15px 10px rgb(11 57 71), -10px -10px 10px rgb(11 57 71);
+}
+.header p {
+	color: royalblue;
+	font-family: cursive;
+}
+h3 {
+	font-size: 30px;
+	color: slateblue;
+	font-weight: 700;
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration: line-through;
+	text-shadow: 10px 10px 30px rgb(66 22 200);
+}
+li {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	padding-left: 10px;
+}
+p {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+div {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.li__menu {
+	color: yellow;
+	font-family: cursive;
+	text-decoration: overline;
+}
+.li__menu2 {
+	color: green;
+	font-style: italic;
+	text-decoration: line-through;
+}
+.li__menu3 {
+	color: blue;
+	font-style: oblique;
+	text-decoration: underline;
+}
+.li__menu4 {
+	color: darkgoldenrod;
+	word-spacing: 20px;
+}
+.li__menu5 {
+	color: darkred;
+	letter-spacing: 5px;
+	text-decoration: underline;
+}
+.li__menu6 {
+	color: black;
+	letter-spacing: 6px;
+	text-decoration: line-through;
+}
+.character h2 {
+	font-size: 40px;
+	color: blue;
+	text-align: right;
+}
+.block {
+	color: darkmagenta;
+	letter-spacing: 6px;
+}
+.character span {
+	color: red;
+}
+.br {
+	color: teal;
+	font-size: 25px;
+	letter-spacing: 10px;
+	font-family: Pacifico;
+	text-shadow: 10px 10px 10px rgb(11 57 71);
+}
+.block1 {
+	color:gold ;
+	font-size: 30px;
+	text-align: right;
+	text-decoration: line-through;
+}
+.block2 {
+	color: grey;
+	font-size: 30px;
+	font-style: italic;
+}
+.habitat h2 {
+	color: pink;
+	font-size: 35px;
+}
+.habitat p {
+	color: dodgerblue;
+	font-size: 25px;
+	text-transform: capitalize;
+	letter-spacing: 6px;
+	text-shadow: 10px 15px 10px rgb(11 57 71), -10px -10px 10px rgb(11 57 71);
+}
+div.br {
+	color: lime;
+	font-weight: 700;
+	font-style: italic;
+}
+div.style {
+	color: red;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+p.id {
+	color: maroon;
+	text-align: right;
+	font-family: Pacifico;
+}
+.nutrition h2 {
+	color: purple;
+	font-size: 45px;
+	text-decoration: line-through;
+}
+.titly {
+	color: aquamarine;
+	font-size: 23px;
+	text-align: center;
+}
+.line {
+	color: darkslategrey;
+	font-size: 30px;
+	text-transform: capitalize;
+}
+.life h2 {
+	color: #0a2196;
+	font-size: 50px;
+	text-decoration: underline;
+}
+.character > p.block1{
+	text-shadow: 10px 15px 10px rgb(43 188 17), -10px -10px 10px rgb(162 159 158);
+}
+.mar {
+	color: darkblue;
+	font-size: 30px;
+	text-align: center;
+}
+.human h2 {
+	color: #515437;
+	font-size: 50px;
+	text-decoration: overline;
+}
+.text {
+	color: #03227e;
+	font-family: cursive;
+	font-size: 33px;
+	text-decoration: underline;
+}
+.text1 {
+	color: #29c1c8;
+	font-size: 40px;
+}
+.human > p.line {
+	text-shadow: 10px 15px 10px rgb(11 57 71), -10px -10px 10px rgb(11 57 71);
+}
+.human > p.br {
+	color: black;
+}
+.human > p.br a {
+	color: red;
+	text-decoration: underline;
+}
+.style1 {
+	color: #6f7178;
+	font-size: 30px;
+	font-family: cursive;
+	text-shadow: 10px 15px 10px rgb(11 57 71);
+	text-align: right;
+}
+.style1 a {
+	color: green;
+	text-decoration: line-through;
+}
+.style2 {
+	color: indigo;
+	font-size: 28px;
+	font-weight: 900;
+}
+.facts ul {
+	color: #6f7178;
+	font-size: 30px;
+	font-family: cursive;
+}
+h4 {
+	color: khaki;
+	font-size: 45px;
+	font-family: Pacifico;
+}
+.video h2 {
+	color:magenta;
+	font-size: 35px;
+}
+.video p {
+	color: mediumslateblue;
+	font-size: 30px;
+}
+.footer {
+	color: navy;
+	font-size: 45px;
+	text-align: center;
+	font-family: Pacifico;
+}
